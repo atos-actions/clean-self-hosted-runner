@@ -1,3 +1,13 @@
+## [1.4.33](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.32...v1.4.33) (2026-01-22)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump prettier from 3.7.4 to 3.8.0 ([#294](https://github.com/atos-actions/clean-self-hosted-runner/issues/294)) ([908c2f2](https://github.com/atos-actions/clean-self-hosted-runner/commit/908c2f2f6b32403ebbb638d814bec52236360822))
+* **deps-dev:** bump prettier from 3.8.0 to 3.8.1 ([#295](https://github.com/atos-actions/clean-self-hosted-runner/issues/295)) ([1f9933a](https://github.com/atos-actions/clean-self-hosted-runner/commit/1f9933af27a0726bb69face1fe896ff1b20071ac))
+* **deps-dev:** bump the commitlint group with 2 updates ([#292](https://github.com/atos-actions/clean-self-hosted-runner/issues/292)) ([f0fe589](https://github.com/atos-actions/clean-self-hosted-runner/commit/f0fe58941ad84e65f0048cb204df28bc567853e1))
+* **deps-dev:** bump the commitlint group with 2 updates ([#293](https://github.com/atos-actions/clean-self-hosted-runner/issues/293)) ([e7545f5](https://github.com/atos-actions/clean-self-hosted-runner/commit/e7545f51ac4972e01b6b5ad3dfa587adcc99d84d))
+* **deps:** bump lodash from 4.17.21 to 4.17.23 ([#296](https://github.com/atos-actions/clean-self-hosted-runner/issues/296)) ([b20a17b](https://github.com/atos-actions/clean-self-hosted-runner/commit/b20a17ba590d56ce985939341be4559b836b51cd))
+
 ## [1.4.32](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.31...v1.4.32) (2025-12-11)
 
 ### Bug Fixes
