@@ -1,3 +1,24 @@
+## [1.4.34](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.33...v1.4.34) (2026-04-02)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump handlebars from 4.7.8 to 4.7.9 ([#310](https://github.com/atos-actions/clean-self-hosted-runner/issues/310)) ([8025b60](https://github.com/atos-actions/clean-self-hosted-runner/commit/8025b6051ff1185e21144f07c9c239e154beace9))
+* **deps-dev:** bump lint-staged from 16.2.7 to 16.3.1 ([#302](https://github.com/atos-actions/clean-self-hosted-runner/issues/302)) ([3e9101f](https://github.com/atos-actions/clean-self-hosted-runner/commit/3e9101f0c21216101705a933c30c824ad7c18c54))
+* **deps-dev:** bump lint-staged from 16.3.1 to 16.3.2 ([#304](https://github.com/atos-actions/clean-self-hosted-runner/issues/304)) ([6024026](https://github.com/atos-actions/clean-self-hosted-runner/commit/60240269525ad87fdf3a190707052916d1d813a8))
+* **deps-dev:** bump lint-staged from 16.3.2 to 16.3.3 ([#305](https://github.com/atos-actions/clean-self-hosted-runner/issues/305)) ([d745d62](https://github.com/atos-actions/clean-self-hosted-runner/commit/d745d62861bfed1f7d10b220d386d04eeb809b27))
+* **deps-dev:** bump lint-staged from 16.3.3 to 16.4.0 ([#308](https://github.com/atos-actions/clean-self-hosted-runner/issues/308)) ([ab6981d](https://github.com/atos-actions/clean-self-hosted-runner/commit/ab6981df93412999c466044e8779d0ca0b0ca7ee))
+* **deps-dev:** bump lodash-es from 4.17.21 to 4.17.23 ([#297](https://github.com/atos-actions/clean-self-hosted-runner/issues/297)) ([0280ee2](https://github.com/atos-actions/clean-self-hosted-runner/commit/0280ee27e517fa38f1281c68f880912451eb60c5))
+* **deps-dev:** bump lodash-es from 4.17.23 to 4.18.1 ([#311](https://github.com/atos-actions/clean-self-hosted-runner/issues/311)) ([1aadfaa](https://github.com/atos-actions/clean-self-hosted-runner/commit/1aadfaa7dc20c35d610fec9b7c16414963b33ef8))
+* **deps-dev:** bump picomatch from 2.3.1 to 2.3.2 ([#309](https://github.com/atos-actions/clean-self-hosted-runner/issues/309)) ([44eba82](https://github.com/atos-actions/clean-self-hosted-runner/commit/44eba827b80906b1446628e29ba5087f365d84d1))
+* **deps-dev:** bump semantic-release in the semantic-release group ([#298](https://github.com/atos-actions/clean-self-hosted-runner/issues/298)) ([706eab3](https://github.com/atos-actions/clean-self-hosted-runner/commit/706eab351b700ba8852e1994ceea545ce4e93f61))
+* **deps-dev:** bump the commitlint group with 2 updates ([#299](https://github.com/atos-actions/clean-self-hosted-runner/issues/299)) ([c94df2f](https://github.com/atos-actions/clean-self-hosted-runner/commit/c94df2fd7acae7a24a3a337fc1adbab661aa4274))
+* **deps-dev:** bump the commitlint group with 2 updates ([#300](https://github.com/atos-actions/clean-self-hosted-runner/issues/300)) ([1979db6](https://github.com/atos-actions/clean-self-hosted-runner/commit/1979db6d6b2b4a774db5231594b47dbb2cfbf00d))
+* **deps-dev:** bump the commitlint group with 2 updates ([#301](https://github.com/atos-actions/clean-self-hosted-runner/issues/301)) ([318f1cc](https://github.com/atos-actions/clean-self-hosted-runner/commit/318f1ccbc2506ca09f95751d4de6be265c9bf20c))
+* **deps-dev:** bump the commitlint group with 2 updates ([#303](https://github.com/atos-actions/clean-self-hosted-runner/issues/303)) ([18b879f](https://github.com/atos-actions/clean-self-hosted-runner/commit/18b879f184723ed42858795891df07771c582584))
+* **deps-dev:** bump the commitlint group with 2 updates ([#306](https://github.com/atos-actions/clean-self-hosted-runner/issues/306)) ([b891d9a](https://github.com/atos-actions/clean-self-hosted-runner/commit/b891d9a94d0e17c45c364ee6449264030c9b70bd))
+* **deps-dev:** bump the commitlint group with 2 updates ([#307](https://github.com/atos-actions/clean-self-hosted-runner/issues/307)) ([37d7963](https://github.com/atos-actions/clean-self-hosted-runner/commit/37d7963348880c88710fc959ccff34b3e745870a))
+* **deps:** bump lodash from 4.17.23 to 4.18.1 ([#312](https://github.com/atos-actions/clean-self-hosted-runner/issues/312)) ([42f6b49](https://github.com/atos-actions/clean-self-hosted-runner/commit/42f6b49fa5825f5e385662dec787c9df580213ca))
+
 ## [1.4.33](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.32...v1.4.33) (2026-01-22)
 
 ### Dependencies and Other Build Updates
