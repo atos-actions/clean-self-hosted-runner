@@ -1,3 +1,11 @@
+## [1.4.37](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.36...v1.4.37) (2026-08-12)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump js-yaml from 4.2.0 to 4.3.1 ([#353](https://github.com/atos-actions/clean-self-hosted-runner/issues/353)) ([67bfd46](https://github.com/atos-actions/clean-self-hosted-runner/commit/67bfd46b969f10dfcd8dc0e55c91da12ff109f41))
+* **deps-dev:** bump semantic-release in the semantic-release group ([#354](https://github.com/atos-actions/clean-self-hosted-runner/issues/354)) ([0a0988f](https://github.com/atos-actions/clean-self-hosted-runner/commit/0a0988f976a2d11a89820003e6b45ffa7087f2e7))
+* **deps:** bump the atos-actions group with 3 updates ([#355](https://github.com/atos-actions/clean-self-hosted-runner/issues/355)) ([2ca2603](https://github.com/atos-actions/clean-self-hosted-runner/commit/2ca2603a8d1d1b5b5565ab716d0a5661d5dca9c9))
+
 ## [1.4.36](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.35...v1.4.36) (2026-08-07)
 
 ### Dependencies and Other Build Updates
