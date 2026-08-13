@@ -1,3 +1,9 @@
+## [1.4.38](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.37...v1.4.38) (2026-08-13)
+
+### Dependencies and Other Build Updates
+
+* **deps:** bump the atos-actions group with 3 updates ([#356](https://github.com/atos-actions/clean-self-hosted-runner/issues/356)) ([8a0ea24](https://github.com/atos-actions/clean-self-hosted-runner/commit/8a0ea246f2f5da9e9da3c23982046574b42662ba))
+
 ## [1.4.37](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.36...v1.4.37) (2026-08-12)
 
 ### Dependencies and Other Build Updates
