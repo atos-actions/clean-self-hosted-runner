@@ -1,3 +1,15 @@
+## [1.4.40](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.39...v1.4.40) (2026-09-17)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump fast-uri from 3.1.5 to 3.1.7 ([#360](https://github.com/atos-actions/clean-self-hosted-runner/issues/360)) ([8295074](https://github.com/atos-actions/clean-self-hosted-runner/commit/82950745d8754979c54cf7a89bc00dba8660ebce))
+* **deps-dev:** bump js-yaml from 4.3.1 to 4.3.2 ([#363](https://github.com/atos-actions/clean-self-hosted-runner/issues/363)) ([edb9fac](https://github.com/atos-actions/clean-self-hosted-runner/commit/edb9faccf45b048b6c972b74a46aa10cd29377fb))
+* **deps-dev:** bump lint-staged from 17.3.0 to 17.4.1 ([#359](https://github.com/atos-actions/clean-self-hosted-runner/issues/359)) ([d72187e](https://github.com/atos-actions/clean-self-hosted-runner/commit/d72187e44595c5544b27d5a7a9a58ea9128cb02a))
+* **deps-dev:** bump lint-staged from 17.4.1 to 17.5.0 ([#361](https://github.com/atos-actions/clean-self-hosted-runner/issues/361)) ([0688313](https://github.com/atos-actions/clean-self-hosted-runner/commit/0688313994cbac1d58b1fca0dfc40c1a54befeb7))
+* **deps-dev:** bump lint-staged from 17.5.0 to 17.5.1 ([#362](https://github.com/atos-actions/clean-self-hosted-runner/issues/362)) ([90e4896](https://github.com/atos-actions/clean-self-hosted-runner/commit/90e4896e82f533ac98310dc4a61b65dabc4a103d))
+* **deps-dev:** bump the commitlint group across 1 directory with 2 updates ([#358](https://github.com/atos-actions/clean-self-hosted-runner/issues/358)) ([73f65e6](https://github.com/atos-actions/clean-self-hosted-runner/commit/73f65e6763415e17966d833311841b0b6e3accb0))
+* **deps:** bump the atos-actions group with 3 updates ([#364](https://github.com/atos-actions/clean-self-hosted-runner/issues/364)) ([e8df472](https://github.com/atos-actions/clean-self-hosted-runner/commit/e8df47284e2339c79a6e44a1b25c7988046e8440))
+
 ## [1.4.39](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.38...v1.4.39) (2026-08-16)
 
 ### Dependencies and Other Build Updates
