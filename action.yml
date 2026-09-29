@@ -16,7 +16,8 @@ runs:
       # TODO: evaluate rm -rf "${{ github.workspace }}"
       run: |
         echo "🧹 Cleaning working directory..."
-        rm -rf ./* ./.[!.]*
+        shopt -s dotglob
+        rm -rf ./*
 
     - id: Windows
       name: '🧹 Clean working directory'
