@@ -1,3 +1,15 @@
+## [1.4.41](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.40...v1.4.41) (2026-09-29)
+
+### Bug Fixes
+
+* remove workspace entries whose name starts with two dots ([#368](https://github.com/atos-actions/clean-self-hosted-runner/issues/368)) ([99cf407](https://github.com/atos-actions/clean-self-hosted-runner/commit/99cf407f5f99e6c915091fbbfe7e94389e4de224))
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump prettier from 3.9.6 to 3.9.8 ([#365](https://github.com/atos-actions/clean-self-hosted-runner/issues/365)) ([9691fe7](https://github.com/atos-actions/clean-self-hosted-runner/commit/9691fe7774edf6607fa2472b9bd4fc6060ec2b82))
+* **deps-dev:** bump prettier from 3.9.8 to 3.9.9 ([#367](https://github.com/atos-actions/clean-self-hosted-runner/issues/367)) ([9274cc3](https://github.com/atos-actions/clean-self-hosted-runner/commit/9274cc39bd1f326fd379f14ec867546f29e9a110))
+* **deps-dev:** bump the commitlint group with 2 updates ([#366](https://github.com/atos-actions/clean-self-hosted-runner/issues/366)) ([92c3334](https://github.com/atos-actions/clean-self-hosted-runner/commit/92c333485022d3d29b753ed2ebe6e14247854a87))
+
 ## [1.4.40](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.39...v1.4.40) (2026-09-17)
 
 ### Dependencies and Other Build Updates
