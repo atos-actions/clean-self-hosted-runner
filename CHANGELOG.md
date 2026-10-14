@@ -1,3 +1,11 @@
+## [1.4.42](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.41...v1.4.42) (2026-10-14)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump handlebars from 4.7.9 to 4.7.10 ([#371](https://github.com/atos-actions/clean-self-hosted-runner/issues/371)) ([b5c1018](https://github.com/atos-actions/clean-self-hosted-runner/commit/b5c1018df4aec9e01991e48dbd5c5031628c471a))
+* **deps-dev:** bump lint-staged from 17.5.1 to 17.6.0 ([#370](https://github.com/atos-actions/clean-self-hosted-runner/issues/370)) ([3abd1b6](https://github.com/atos-actions/clean-self-hosted-runner/commit/3abd1b6278a9af3e7111a989992ce94368b95cb0))
+* **deps:** bump the atos-actions group with 3 updates ([#372](https://github.com/atos-actions/clean-self-hosted-runner/issues/372)) ([ecbc7e1](https://github.com/atos-actions/clean-self-hosted-runner/commit/ecbc7e14bc10b9336c37f723f251769cd6b0accf))
+
 ## [1.4.41](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.40...v1.4.41) (2026-09-29)
 
 ### Bug Fixes
