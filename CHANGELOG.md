@@ -1,3 +1,10 @@
+## [1.4.43](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.42...v1.4.43) (2026-10-18)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump prettier from 3.9.9 to 3.9.10 ([#373](https://github.com/atos-actions/clean-self-hosted-runner/issues/373)) ([01a82eb](https://github.com/atos-actions/clean-self-hosted-runner/commit/01a82eb7eaf348fd3f5ada1fe30065302b4c33d4))
+* **deps:** bump the atos-actions group with 3 updates ([#374](https://github.com/atos-actions/clean-self-hosted-runner/issues/374)) ([cac0693](https://github.com/atos-actions/clean-self-hosted-runner/commit/cac069358389bed5a67fef1d4ae37c32a43b908b))
+
 ## [1.4.42](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.41...v1.4.42) (2026-10-14)
 
 ### Dependencies and Other Build Updates
