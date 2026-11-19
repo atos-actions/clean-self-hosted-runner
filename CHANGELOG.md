@@ -1,3 +1,12 @@
+## [1.4.44](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.43...v1.4.44) (2026-11-19)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump fast-uri from 3.1.8 to 3.1.9 ([#376](https://github.com/atos-actions/clean-self-hosted-runner/issues/376)) ([a8db6da](https://github.com/atos-actions/clean-self-hosted-runner/commit/a8db6dafc4655858a3e745cfce3dff2e435452bb))
+* **deps-dev:** bump lint-staged from 17.6.0 to 17.6.1 ([#378](https://github.com/atos-actions/clean-self-hosted-runner/issues/378)) ([3c2793e](https://github.com/atos-actions/clean-self-hosted-runner/commit/3c2793ed0446283bc4271347ab017e94560f0af5))
+* **deps-dev:** bump the commitlint group with 2 updates ([#375](https://github.com/atos-actions/clean-self-hosted-runner/issues/375)) ([423cb52](https://github.com/atos-actions/clean-self-hosted-runner/commit/423cb52c34434344b4ab5b119ebaa8b6785ceab4))
+* **deps:** bump the atos-actions group with 3 updates ([#379](https://github.com/atos-actions/clean-self-hosted-runner/issues/379)) ([392f244](https://github.com/atos-actions/clean-self-hosted-runner/commit/392f24442b5fd26a407f0be0727661c5afa15336))
+
 ## [1.4.43](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.42...v1.4.43) (2026-10-18)
 
 ### Dependencies and Other Build Updates
