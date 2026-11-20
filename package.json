@@ -39,8 +39,5 @@
 		"prettier": "^3.9.10",
 		"semantic-release": "^26.0.1",
 		"semantic-release-major-tag": "^0.3.2"
-	},
-	"overrides": {
-		"conventional-changelog-conventionalcommits": ">= 8.0.0"
 	}
 }
