@@ -1,3 +1,10 @@
+## [1.4.45](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.44...v1.4.45) (2026-11-24)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump semantic-release from 25.0.9 to 26.0.1 in the semantic-release group across 1 directory ([#380](https://github.com/atos-actions/clean-self-hosted-runner/issues/380)) ([15a3306](https://github.com/atos-actions/clean-self-hosted-runner/commit/15a33060293b1a93dd73fb0416f07a7a17f71015))
+* **deps:** bump the atos-actions group with 3 updates ([#381](https://github.com/atos-actions/clean-self-hosted-runner/issues/381)) ([135ffda](https://github.com/atos-actions/clean-self-hosted-runner/commit/135ffdab53dc4b92b4c323d407c562cf94a96f1d))
+
 ## [1.4.44](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.43...v1.4.44) (2026-11-19)
 
 ### Dependencies and Other Build Updates
