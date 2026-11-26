@@ -1,3 +1,10 @@
+## [1.4.46](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.45...v1.4.46) (2026-11-26)
+
+### Dependencies and Other Build Updates
+
+* **deps-dev:** bump lint-staged from 17.6.1 to 17.6.2 ([#382](https://github.com/atos-actions/clean-self-hosted-runner/issues/382)) ([f735500](https://github.com/atos-actions/clean-self-hosted-runner/commit/f7355009f69af37f421fd7408f052dc340bfca43))
+* **deps:** bump the atos-actions group with 3 updates ([#383](https://github.com/atos-actions/clean-self-hosted-runner/issues/383)) ([ed21876](https://github.com/atos-actions/clean-self-hosted-runner/commit/ed218764929b9e68699679e88644638587f3d888))
+
 ## [1.4.45](https://github.com/atos-actions/clean-self-hosted-runner/compare/v1.4.44...v1.4.45) (2026-11-24)
 
 ### Dependencies and Other Build Updates
