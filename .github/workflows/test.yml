@@ -13,23 +13,23 @@ permissions:
 
 jobs:
   test-linux:
-    name: '🧪 Test on Linux'
+    name: "🧪 Test on Linux"
     runs-on: ubuntu-latest
 
     steps:
-      - name: '☁️ Checkout repository'
+      - name: "☁️ Checkout repository"
         uses: actions/checkout@v7
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           persist-credentials: false
 
-      - name: '📝 Creating files and folders'
+      - name: "📝 Creating files and folders"
         run: ./test/add_files.sh
 
-      - name: '⚙️ Run action'
+      - name: "⚙️ Run action"
         uses: ./
 
-      - name: '✅ Test if workspace is empty'
+      - name: "✅ Test if workspace is empty"
         shell: bash
         run: |
           if [ "$(ls -A .)" ]; then
@@ -37,18 +37,18 @@ jobs:
             exit 1
           fi
 
-      - name: '☁️ Checkout repository'
+      - name: "☁️ Checkout repository"
         uses: actions/checkout@v7
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           persist-credentials: false
 
-      - name: '⚙️ Run action with DISABLE_RUNNER_CLEANUP set to true'
+      - name: "⚙️ Run action with DISABLE_RUNNER_CLEANUP set to true"
         env:
           DISABLE_RUNNER_CLEANUP: true
         uses: ./
 
-      - name: '✅ Test if workspace is not empty'
+      - name: "✅ Test if workspace is not empty"
         shell: bash
         run: |
           if [ "$(ls -A .)" ]; then
@@ -58,12 +58,12 @@ jobs:
             exit 1
           fi
 
-      - name: '⚙️ Run action with DISABLE_RUNNER_CLEANUP set to false'
+      - name: "⚙️ Run action with DISABLE_RUNNER_CLEANUP set to false"
         env:
           DISABLE_RUNNER_CLEANUP: false
         uses: ./
 
-      - name: '✅ Test if workspace is empty'
+      - name: "✅ Test if workspace is empty"
         shell: bash
         run: |
           if [ "$(ls -A .)" ]; then
@@ -71,29 +71,29 @@ jobs:
             exit 1
           fi
 
-      - name: '🧹 Cleanup workspace'
+      - name: "🧹 Cleanup workspace"
         uses: atos-actions/clean-self-hosted-runner@v1
         if: ${{ always() }} # Run even if previous steps in the job fail or are canceled
 
   test-windows:
-    name: '🧪 Test on Windows'
+    name: "🧪 Test on Windows"
     runs-on: windows-latest
 
     steps:
-      - name: '☁️ Checkout repository'
+      - name: "☁️ Checkout repository"
         uses: actions/checkout@v7
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           persist-credentials: false
 
-      - name: '📝 Creating files and folders'
+      - name: "📝 Creating files and folders"
         run: ./test/add_files.ps1
         shell: pwsh
 
-      - name: '⚙️ Run action'
+      - name: "⚙️ Run action"
         uses: ./
 
-      - name: '✅ Test if workspace is empty'
+      - name: "✅ Test if workspace is empty"
         shell: pwsh
         run: |
           if ((Get-ChildItem -File).Count -gt 0) {
@@ -101,18 +101,18 @@ jobs:
             exit 1
           }
 
-      - name: '☁️ Checkout repository'
+      - name: "☁️ Checkout repository"
         uses: actions/checkout@v7
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           persist-credentials: false
 
-      - name: '⚙️ Run action with DISABLE_RUNNER_CLEANUP set to true'
+      - name: "⚙️ Run action with DISABLE_RUNNER_CLEANUP set to true"
         env:
           DISABLE_RUNNER_CLEANUP: true
         uses: ./
 
-      - name: '✅ Test if workspace is not empty'
+      - name: "✅ Test if workspace is not empty"
         shell: pwsh
         run: |
           if ((Get-ChildItem -File).Count -gt 0) {
@@ -122,12 +122,12 @@ jobs:
             exit 1
           }
 
-      - name: '⚙️ Run action with DISABLE_RUNNER_CLEANUP set to false'
+      - name: "⚙️ Run action with DISABLE_RUNNER_CLEANUP set to false"
         env:
           DISABLE_RUNNER_CLEANUP: false
         uses: ./
 
-      - name: '✅ Test if workspace is empty'
+      - name: "✅ Test if workspace is empty"
         shell: pwsh
         run: |
           if ((Get-ChildItem -File).Count -gt 0) {
@@ -135,6 +135,6 @@ jobs:
             exit 1
           }
 
-      - name: '🧹 Cleanup workspace'
+      - name: "🧹 Cleanup workspace"
         uses: atos-actions/clean-self-hosted-runner@v1
         if: ${{ always() }} # Run even if previous steps in the job fail or are canceled
