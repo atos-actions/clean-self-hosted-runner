@@ -1,0 +1,65 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"preset": "recommended",
+			"nursery": {
+				"useLogicalProperties": "warn"
+			},
+			"style": {
+				"noParameterAssign": "error",
+				"useAsConstAssertion": "error",
+				"useDefaultParameterLast": "error",
+				"useEnumInitializers": "error",
+				"useSingleVarDeclarator": "error",
+				"noUnusedTemplateLiteral": "error",
+				"useNumberNamespace": "error",
+				"noInferrableTypes": "error",
+				"noUselessElse": "error"
+			},
+			"a11y": {
+				"useAnchorContent": "off",
+				"useSemanticElements": "warn"
+			},
+			"suspicious": {
+				"useBaseline": "info"
+			}
+		}
+	},
+	"css": {
+		"linter": {
+			"enabled": true
+		},
+		"formatter": {
+			"enabled": true
+		}
+	},
+	"javascript": {
+		"experimentalEmbeddedSnippetsEnabled": false
+	},
+	"html": {
+		"experimentalFullSupportEnabled": true
+	},
+	"markdown": {
+		"analyzeEmbeds": true,
+		"formatter": {
+			"formatEmbeds": true
+		},
+		"parser": {
+			"frontmatter": true
+		}
+	},
+	"formatter": {
+		"indentStyle": "tab",
+		"lineWidth": 120
+	},
+	"files": {
+		"includes": ["**", "!**/.devcontainer/devcontainer.json", "!CHANGELOG.md"]
+	},
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true
+	}
+}
