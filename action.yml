@@ -1,15 +1,15 @@
-name: 'Clean self-hosted runner'
-description: 'Clean working directory on self-hosted runners'
+name: "Clean self-hosted runner"
+description: "Clean working directory on self-hosted runners"
 
 branding:
-  icon: 'trash-2'
-  color: 'orange'
+  icon: "trash-2"
+  color: "orange"
 
 runs:
   using: composite
   steps:
     - id: Linux
-      name: '🧹 Clean working directory'
+      name: "🧹 Clean working directory"
       # If you want to disable the cleanup for e.g. debugging purpose, you can set the environment variable DISABLE_RUNNER_CLEANUP to true
       if: ${{ always() && runner.os != 'Windows' && env.DISABLE_RUNNER_CLEANUP != 'true' }} # Run even if the job fails or is canceled
       shell: bash
@@ -20,7 +20,7 @@ runs:
         rm -rf ./*
 
     - id: Windows
-      name: '🧹 Clean working directory'
+      name: "🧹 Clean working directory"
       # If you want to disable the cleanup for e.g. debugging purpose, you can set the environment variable DISABLE_RUNNER_CLEANUP to true
       if: ${{ always() && runner.os == 'Windows' && env.DISABLE_RUNNER_CLEANUP != 'true' }} # Run even if the job fails or is canceled
       shell: cmd

@@ -5,29 +5,29 @@
 
 version: 2
 updates:
-  - package-ecosystem: 'npm'
-    directory: '/' # Location of package manifests
+  - package-ecosystem: "npm"
+    directory: "/" # Location of package manifests
     schedule:
-      interval: 'daily'
-      time: '00:00'
-      timezone: 'Europe/Berlin'
+      interval: "daily"
+      time: "00:00"
+      timezone: "Europe/Berlin"
     groups:
       semantic-release:
         patterns:
-          - 'semantic-release'
-          - '@semantic-release/*'
+          - "semantic-release"
+          - "@semantic-release/*"
       commitlint:
         patterns:
-          - '@commitlint/*'
+          - "@commitlint/*"
 
-  - package-ecosystem: 'github-actions'
-    directory: '/'
+  - package-ecosystem: "github-actions"
+    directory: "/"
     schedule:
-      interval: 'daily'
-      time: '00:00'
-      timezone: 'Europe/Berlin'
+      interval: "daily"
+      time: "00:00"
+      timezone: "Europe/Berlin"
     groups:
       atos-actions:
         patterns:
-          - 'atos-actions/*'
-          - 'eviden-actions/*'
+          - "atos-actions/*"
+          - "eviden-actions/*"
